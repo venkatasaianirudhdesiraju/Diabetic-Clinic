@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Specialist.master.cs" Inherits="DiabetesFinalProject.Specialist" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/SpecialistStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+      <div id="MainDiv">
+
+        <div id="HeadDiv">
+            <div id="LogoDiv">
+                <asp:Image ID="ImgLogo" runat="server" ImageUrl="~/Images/Logo.png" Height="73px" Width="332px" />
+            </div>
+            <br />
+            <div id="NavDiv">
+                <ul>
+                    <li><a href="Specialistindex.aspx">Home</a></li>
+                    <li><a href="SpecialistProfile.aspx">View Profile</a></li>
+                    <li><a href="SpecialistViewPatients.aspx">View Patients</a></li>
+                    <li><a href="SpecialistSchedule.aspx">Schedules</a></li>
+                    <li><a href="SpecialistReports.aspx">Reports</a></li>                                       
+                    <ul style="float:right;list-style-type:none;">
+                        <li><a href="SpecialistAboutUs.aspx">About Us</a></li>
+                        <li><a href="SpecialistContactUs.aspx">Contact Us</a></li>
+                        <li><a href="Default.aspx">Logout</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <br />
+        <div id="MiddleContentDiv">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <br />
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div id="imgDiv"><img src="Images/line.png" /></div>
+    </div>
+    </form>
+</body>
+</html>

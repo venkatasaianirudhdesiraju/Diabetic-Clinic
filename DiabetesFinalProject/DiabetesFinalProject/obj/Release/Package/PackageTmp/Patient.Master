@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Patient.master.cs" Inherits="DiabetesFinalProject.Patient" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/PatientStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="MainDiv">
+
+        <div id="HeadDiv">
+            <div id="LogoDiv">
+                <asp:Image ID="ImgLogo" runat="server" ImageUrl="~/Images/Logo.png" Height="73px" Width="332px" />
+            </div>
+            <br />
+            <div id="NavDiv">
+                <ul>
+                    <li><a href="Patientindex.aspx">Home</a></li>
+                    <li><a href="PatientProfile.aspx">Profile</a></li>
+                    <li><a href="PatientReport.aspx">Report</a></li>
+                    <li><a href="PatientChooseDoctor.aspx">Choose Doctor</a></li>
+                    <li><a href="PatientScheduledTreatment.aspx">scheduled Treatment</a></li>                    
+                    <ul style="float:right;list-style-type:none;">
+                        <li><a href="PatientAboutUs.aspx">About Us</a></li>
+                        <li><a href="PatientContactUs.aspx">Contact Us</a></li>
+                        <li><a href="Default.aspx">Logout</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="MiddleContentDiv">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div id="imgDiv"><img src="Images/line.png" /></div>
+    </div>
+    </form>
+</body>
+</html>

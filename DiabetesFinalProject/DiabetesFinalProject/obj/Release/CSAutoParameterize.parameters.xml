@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DiabetesConnectionString-Web.config Connection String" description="DiabetesConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=shucsd.sacredheart.edu\sql2012;Initial Catalog=CS557_FA15_choppay;Persist Security Info=True;User ID=CS557_FA15_choppay;Password=Welcome1" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\choppa\\documents\\visual\ studio\ 2013\\Projects\\DiabetesFinalProject\\DiabetesFinalProject\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DiabetesConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

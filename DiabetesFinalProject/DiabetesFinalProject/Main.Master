@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="DiabetesFinalProject.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/MainStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div id="MainDiv">
+
+        <div id="HeadDiv">
+            <div id="LogoDiv">
+                <asp:Image ID="ImgLogo" runat="server" ImageUrl="~/Images/Logo.png" Height="73px" Width="332px" />
+            </div>
+            <br />
+            <div id="nav">
+                <div id="nav_wrapper">
+                    <ul>
+                        <li><a href="Default.aspx">Home</a>
+                        </li>                        
+                        <li> <a href="#">Patient</a>
+                            <ul>
+                                <li><a href="PatientLogin.aspx">Current Patient</a>
+                                </li>
+                                <li><a href="PatientRegister.aspx">New Patient</a>
+                                </li>                                
+                            </ul>
+                        </li>
+                        <li> <a href="DoctorLogin.aspx">Doctor</a></li>         
+                        <li> <a href="SpecialistLogin.aspx">Specialist</a></li>
+                        <li><a href="AdminLogin.aspx">Admin</a></li>                                                    
+                        <li style="float:right">
+                            <a href="ContactUs.aspx">Contact Us</a>
+                        </li>    
+                        <li style="float:right">
+                            <a href="AboutUs.aspx">About Us</a>
+                        </li>                                        
+                    </ul>
+                    
+                </div>    
+            </div>            
+        </div>
+        <br />
+        <div id="MiddleContentDiv">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <br />
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div id="imgDiv"><img src="Images/line.png" /></div>
+    </div>
+    </form>
+</body>
+</html>

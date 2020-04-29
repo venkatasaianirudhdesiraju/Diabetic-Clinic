@@ -1,0 +1,6 @@
+C:\Users\choppa\documents\visual studio 2013\Projects\DiabetesFinalProject\DiabetesFinalProject\bin\DiabetesFinalProject.dll.config
+C:\Users\choppa\documents\visual studio 2013\Projects\DiabetesFinalProject\DiabetesFinalProject\bin\DiabetesFinalProject.dll
+C:\Users\choppa\documents\visual studio 2013\Projects\DiabetesFinalProject\DiabetesFinalProject\bin\DiabetesFinalProject.pdb
+C:\Users\choppa\documents\visual studio 2013\Projects\DiabetesFinalProject\DiabetesFinalProject\obj\Release\DiabetesFinalProject.csprojResolveAssemblyReference.cache
+C:\Users\choppa\documents\visual studio 2013\Projects\DiabetesFinalProject\DiabetesFinalProject\obj\Release\DiabetesFinalProject.dll
+C:\Users\choppa\documents\visual studio 2013\Projects\DiabetesFinalProject\DiabetesFinalProject\obj\Release\DiabetesFinalProject.pdb

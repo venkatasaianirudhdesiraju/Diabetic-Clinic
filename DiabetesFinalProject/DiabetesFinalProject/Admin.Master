@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="DiabetesFinalProject.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin Access</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/DoctorStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%-- main division for the page --%>
+    <div id="MainDiv">
+        <%-- Head division to display the logo of the system --%>
+        <div id="HeadDiv">
+            <div id="LogoDiv">
+                <asp:Image ID="ImgLogo" runat="server" ImageUrl="~/Images/Logo.png" Height="73px" Width="332px" />
+            </div>
+            <br />
+            <%-- navigation division --%>            
+            <div id="NavDiv">
+                <ul>
+                    <li><a href="Adminindex.aspx">Home</a></li>
+                    <li><a href="AdminAddDoctor.aspx">Add Doctor</a></li>
+                    <li><a href="AdminAddSpecialist.aspx">Add Specialist</a></li>
+                    <li><a href="AdminVIewDoctors.aspx">View Doctors</a></li> 
+                    <li><a href="AdminViewSpecialists.aspx">View Specialist</a></li>                                                          
+                    <ul style="float:right;list-style-type:none;">                                                
+                        <li><a href="Default.aspx">Logout</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <br />
+        <div id="MiddleContentDiv">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <br />
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div id="imgDiv"><img src="Images/line.png" /></div>
+    </div>
+    </form>
+</body>
+</html>

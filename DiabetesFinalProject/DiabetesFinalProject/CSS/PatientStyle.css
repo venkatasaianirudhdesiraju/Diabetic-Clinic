@@ -1,0 +1,37 @@
+﻿body {
+    width:1024px;
+    margin: 0 auto;
+    margin-top:25px;
+}
+
+#NavDiv ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#NavDiv ul li{
+    float: left;
+}
+
+#NavDiv li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#NavDiv li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#imgDiv{
+    margin-left:55px;
+}
+
+#FooterDiv{
+    margin-left:390px;
+}

@@ -1,0 +1,17 @@
+C:\Users\choppa\Documents\Visual Studio 2013\Projects\DiabetesFinalProject\DiabetesFinalProject\bin\DiabetesFinalProject.dll
+C:\Users\choppa\Documents\Visual Studio 2013\Projects\DiabetesFinalProject\DiabetesFinalProject\bin\DiabetesFinalProject.pdb
+C:\Users\choppa\Documents\Visual Studio 2013\Projects\DiabetesFinalProject\DiabetesFinalProject\obj\Debug\DiabetesFinalProject.dll
+C:\Users\choppa\Documents\Visual Studio 2013\Projects\DiabetesFinalProject\DiabetesFinalProject\obj\Debug\DiabetesFinalProject.pdb
+C:\Users\a4129\Desktop\DiabetesFinalProject\DiabetesFinalProject\bin\DiabetesFinalProject.dll.config
+C:\Users\a4129\Desktop\DiabetesFinalProject\DiabetesFinalProject\bin\DiabetesFinalProject.dll
+C:\Users\a4129\Desktop\DiabetesFinalProject\DiabetesFinalProject\bin\DiabetesFinalProject.pdb
+C:\Users\a4129\Desktop\DiabetesFinalProject\DiabetesFinalProject\obj\Debug\DiabetesFinalProject.csproj.CoreCompileInputs.cache
+C:\Users\a4129\Desktop\DiabetesFinalProject\DiabetesFinalProject\obj\Debug\DiabetesFinalProject.dll
+C:\Users\a4129\Desktop\DiabetesFinalProject\DiabetesFinalProject\obj\Debug\DiabetesFinalProject.pdb
+C:\Users\a4129\Desktop\PROJECTS\DiabetesFinalProject\DiabetesFinalProject\bin\DiabetesFinalProject.dll.config
+C:\Users\a4129\Desktop\PROJECTS\DiabetesFinalProject\DiabetesFinalProject\bin\DiabetesFinalProject.dll
+C:\Users\a4129\Desktop\PROJECTS\DiabetesFinalProject\DiabetesFinalProject\bin\DiabetesFinalProject.pdb
+C:\Users\a4129\Desktop\PROJECTS\DiabetesFinalProject\DiabetesFinalProject\obj\Debug\DiabetesFinalProject.csprojAssemblyReference.cache
+C:\Users\a4129\Desktop\PROJECTS\DiabetesFinalProject\DiabetesFinalProject\obj\Debug\DiabetesFinalProject.csproj.CoreCompileInputs.cache
+C:\Users\a4129\Desktop\PROJECTS\DiabetesFinalProject\DiabetesFinalProject\obj\Debug\DiabetesFinalProject.dll
+C:\Users\a4129\Desktop\PROJECTS\DiabetesFinalProject\DiabetesFinalProject\obj\Debug\DiabetesFinalProject.pdb
